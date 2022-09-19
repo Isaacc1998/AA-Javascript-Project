@@ -2,17 +2,9 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "edit.js",
-  "browserslist": [
-    "defaults"
-  ],
-  "engines": {
-    "node": "16.16.0"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start:debug": "node --inspect app.js",
     "watch": "webpack --watch --mode=development",
     "build": "webpack --mode=production"
   },
@@ -34,5 +26,8 @@
     "sass-loader": "^13.0.2",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
